@@ -1,0 +1,212 @@
+[
+ {
+   "carId": 1,
+   "modelName": "X6",
+   "received": "2018-02-01T00:00:00",
+   "released": "2016-02-01T00:00:00",
+   "type": {
+      "carTypeId": 1,
+      "name": "SUV"
+   },
+   "manufacturer": {
+      "manufacturerId": 1,
+      "name": "BMW"
+   }
+},
+ {
+   "carId": 2,
+   "modelName": "X3",
+   "received": "2020-01-01T00:00:00",
+   "released": "2019-02-01T00:00:00",
+   "type": {
+      "carTypeId": 1,
+      "name": "SUV"
+   },
+   "manufacturer": {
+      "manufacturerId": 1,
+      "name": "BMW"
+   }
+},
+ {
+   "carId": 3,
+   "modelName": "6 Gran Coupe",
+   "received": "2015-01-01T00:00:00",
+   "released": "2014-02-01T00:00:00",
+   "type": {
+      "carTypeId": 2,
+      "name": "Coupe"
+   },
+   "manufacturer": {
+      "manufacturerId": 1,
+      "name": "BMW"
+   }
+},
+ {
+   "carId": 4,
+   "modelName": "Golf",
+   "received": "2017-01-01T00:00:00",
+   "released": "2015-02-01T00:00:00",
+   "type": {
+      "carTypeId": 3,
+      "name": "Hatchback"
+   },
+   "manufacturer": {
+      "manufacturerId": 2,
+      "name": "Volkswagen"
+   }
+},
+ {
+   "carId": 5,
+   "modelName": "Passat",
+   "received": "2014-01-01T00:00:00",
+   "released": "2010-02-01T00:00:00",
+   "type": {
+      "carTypeId": 4,
+      "name": "Combi"
+   },
+   "manufacturer": {
+      "manufacturerId": 2,
+      "name": "Volkswagen"
+   }
+},
+ {
+   "carId": 6,
+   "modelName": "Cayenne",
+   "received": "2020-01-01T00:00:00",
+   "released": "2017-02-01T00:00:00",
+   "type": {
+      "carTypeId": 1,
+      "name": "SUV"
+   },
+   "manufacturer": {
+      "manufacturerId": 3,
+      "name": "Porsche"
+   }
+},
+ {
+   "carId": 7,
+   "modelName": "Polo",
+   "received": "2018-05-01T00:00:00",
+   "released": "2017-02-01T00:00:00",
+   "type": {
+      "carTypeId": 3,
+      "name": "Hatchback"
+   },
+   "manufacturer": {
+      "manufacturerId": 2,
+      "name": "Volkswagen"
+   }
+},
+ {
+   "carId": 8,
+   "modelName": "Insignia",
+   "received": "2019-01-01T00:00:00",
+   "released": "2018-08-01T00:00:00",
+   "type": {
+      "carTypeId": 6,
+      "name": "Limousine"
+   },
+   "manufacturer": {
+      "manufacturerId": 4,
+      "name": "Opel"
+   }
+},
+ {
+   "carId": 9,
+   "modelName": "Crossland",
+   "received": "2017-01-01T00:00:00",
+   "released": "2015-02-01T00:00:00",
+   "type": {
+      "carTypeId": 1,
+      "name": "SUV"
+   },
+   "manufacturer": {
+      "manufacturerId": 4,
+      "name": "Opel"
+   }
+},
+ {
+   "carId": 10,
+   "modelName": "Corsa",
+   "received": "2017-01-01T00:00:00",
+   "released": "2014-02-01T00:00:00",
+   "type": {
+      "carTypeId": 3,
+      "name": "Hatchback"
+   },
+   "manufacturer": {
+      "manufacturerId": 4,
+      "name": "Opel"
+   }
+},
+ {
+   "carId": 11,
+   "modelName": "MX-5",
+   "received": "2015-01-01T00:00:00",
+   "released": "2010-02-01T00:00:00",
+   "type": {
+      "carTypeId": 5,
+      "name": "Roadster"
+   },
+   "manufacturer": {
+      "manufacturerId": 5,
+      "name": "Mazda"
+   }
+},
+ {
+   "carId": 12,
+   "modelName": "CX-30",
+   "received": "2020-01-01T00:00:00",
+   "released": "2019-02-01T00:00:00",
+   "type": {
+      "carTypeId": 1,
+      "name": "SUV"
+   },
+   "manufacturer": {
+      "manufacturerId": 5,
+      "name": "Mazda"
+   }
+},
+ {
+   "carId": 13,
+   "modelName": "Z-4",
+   "received": "2020-01-01T00:00:00",
+   "released": "2018-02-01T00:00:00",
+   "type": {
+      "carTypeId": 5,
+      "name": "Roadster"
+   },
+   "manufacturer": {
+      "manufacturerId": 1,
+      "name": "BMW"
+   }
+},
+ {
+   "carId": 14,
+   "modelName": "Superb",
+   "received": "2070-01-01T00:00:00",
+   "released": "2016-02-01T00:00:00",
+   "type": {
+      "carTypeId": 6,
+      "name": "Limousine"
+   },
+   "manufacturer": {
+      "manufacturerId": 6,
+      "name": "Skoda"
+   }
+},
+ {
+   "carId": 15,
+   "modelName": "Karoq",
+   "received": "2021-01-01T00:00:00",
+   "released": "2018-02-01T00:00:00",
+   "type": {
+      "carTypeId": 1,
+      "name": "SUV"
+   },
+   "manufacturer": {
+      "manufacturerId": 6,
+      "name": "Skoda"
+   }
+}
+]

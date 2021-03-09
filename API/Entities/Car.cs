@@ -6,7 +6,7 @@ namespace API.Entities
     {
         public int CarId { get; set; }
         public string ModelName { get; set; }
-        public DateTime Recieved { get; set; }
+        public DateTime Received { get; set; }
         public DateTime Released { get; set; }
         public CarType Type { get; set; }
         public Manufacturer Manufacturer { get; set; }

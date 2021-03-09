@@ -29,6 +29,7 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddScoped<ICarsSource, JsonCarsSource>();
             services.AddScoped<MockCarRepository>();// temporary solution - couldnt resolve async calls to list of cars
             services.AddControllers();
             services.AddSwaggerGen(c =>
