@@ -31,7 +31,15 @@ namespace API.Controllers
         [HttpGet("search")]
         public ActionResult<ICollection<Car>> GetCarsByQuery([FromQuery] QueryParams queryParams)
         {
-            return Ok(_carRepository.GetCarsByQuery(queryParams));
+
+            List<Car> cars = (List<Car>)_carRepository.GetCarsByQuery(queryParams);
+
+            if (cars.Count > 0)
+            {
+                return Ok(cars);
+            }
+
+            return NoContent();
         }
     }
 }
