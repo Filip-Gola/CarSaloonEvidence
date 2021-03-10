@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
 using API.Entities;
 using API.Interfaces;
-using API.Mappers;
 
 namespace API.Data
 {
     public class JsonCarsSource : ICarsSource
     {
-        public IEnumerable<Car> GetCars()
+        public IQueryable<Car> GetCars()
         {
             var filePath = "C:\\Users\\filipgol\\Documents\\Learning\\CarSaloonEvidence\\API\\Data\\cars.json";
 
@@ -22,7 +22,7 @@ namespace API.Data
 
             var cars = JsonSerializer.Deserialize<List<Car>>(jsonString, options);
             
-            return cars;
+            return cars.AsQueryable();
         }
     }
 }

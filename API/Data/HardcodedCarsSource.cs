@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using API.Entities;
 using API.Interfaces;
 
@@ -7,9 +8,9 @@ namespace API.Data
 {
     public class HardcodedCarsSource : ICarsSource
     {
-        public IEnumerable<Car> GetCars()
+        public IQueryable<Car> GetCars()
         {
-            return new List<Car>
+            var cars = new List<Car>
             {
                 new Car
                 {
@@ -66,6 +67,8 @@ namespace API.Data
                     Manufacturer = new Manufacturer{ManufacturerId = 3, Name = "Porsche"}
                 }
             };
+            
+            return cars.AsQueryable();
         }
     }
 }

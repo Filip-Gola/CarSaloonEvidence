@@ -1,10 +1,10 @@
-using System.Collections.Generic;
+using System.Linq;
 using API.Entities;
 
 namespace API.Interfaces
 {
     public interface ICarsSource
     {
-        IEnumerable<Car> GetCars();
+        IQueryable<Car> GetCars();
     }
 }

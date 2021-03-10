@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using API.Entities;
 using API.Interfaces;
 
@@ -27,7 +26,7 @@ namespace API.Data
 
         public IEnumerable<Car> GetCarsByQuery(QueryParams queryParams)
         {
-            var query = _carsSource.GetCars().AsQueryable();
+            var query = _carsSource.GetCars();
 
             if (!String.IsNullOrWhiteSpace(queryParams.ModelName))
             {

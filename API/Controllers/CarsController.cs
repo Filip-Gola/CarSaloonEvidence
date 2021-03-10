@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using API.Data;
 using API.Entities;
@@ -17,19 +16,19 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<ICollection<Car>> GetCars()
+        public ActionResult GetCars()
         {
             return Ok(_carRepository.GetCars());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<ICollection<Car>> GetCar(int id)
+        public ActionResult GetCar(int id)
         {
             return Ok(_carRepository.GetCarById(id));
         }
 
         [HttpGet("search")]
-        public ActionResult<ICollection<Car>> GetCarsByQuery([FromQuery] QueryParams queryParams)
+        public ActionResult GetCarsByQuery([FromQuery] QueryParams queryParams)
         {
 
             List<Car> cars = (List<Car>)_carRepository.GetCarsByQuery(queryParams);
