@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using API.Entities;
 using API.Interfaces;
 
@@ -23,8 +24,8 @@ namespace API.Data
         {
             return _carsSource.GetCars();
         }
-
-        public IEnumerable<Car> GetCarsByQuery(QueryParams queryParams)
+        
+        public  IEnumerable<Car> GetCarsByQuery(QueryParams queryParams)
         {
             var query = _carsSource.GetCars();
 
